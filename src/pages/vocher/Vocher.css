@@ -1,0 +1,32 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 15%;
+    column-gap: 10px;
+    grid-template-areas: 'datainput  vochertable  vochertable' 'datainput  totals  totals';
+    height: 75%;
+}
+
+.datainput {
+    grid-area: datainput;
+    background-color: darkgoldenrod;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.vochertable {
+    grid-area: vochertable;
+    background-color: transparent;
+    height: 100%;
+}
+
+.totals {
+    grid-area: totals;
+    background-color: rgb(236, 230, 215);
+}
+
+.input-size {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}

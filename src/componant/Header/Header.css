@@ -1,0 +1,23 @@
+.test {
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+}
+
+.navmene {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.navitems a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navitems a:hover {
+    background-color: white;
+    color: blue;
+}

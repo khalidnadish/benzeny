@@ -1,0 +1,57 @@
+.table-div {
+    width: 97%;
+    height: 97%;
+    background-color: #eee;
+    margin: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.vocher_table {
+    display: table;
+    justify-content: center;
+    align-items: left;
+    /* background-color: rgb(248, 174, 174); */
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+}
+
+.vocher_table th {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 0.5rem;
+    padding: 5px 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: BLUE;
+    color: #ffffff;
+}
+
+.vocher_table tbody tr:nth-child(even) {
+    background-color: rgb(218, 131, 131);
+}
+
+
+/*controls column 1 header*/
+
+.vocher_table tr {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 0.5rem;
+    padding: 5px 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: eee;
+    color: #000;
+}
+
+.vocher_table th:nth-child(0) {
+    width: 15px;
+    text-align: center;
+    border-left: solid 1px red;
+}
+
+.vocher_table td:nth-child(0) {
+    width: 15px;
+    text-align: center;
+    border-left: solid 1px red;
+}
